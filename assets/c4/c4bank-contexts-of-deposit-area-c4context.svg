@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="650px" preserveAspectRatio="none" style="width:496px;height:650px;background:#FFFFFF;" version="1.1" viewBox="0 0 496 650" width="496px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="267" x="108.1209" y="18.6855">C4Bank Contexts of Deposit Area</text><!--MD5=[0fe93fdd5e2c924092bdf683e4b7d31e]
+cluster C4Bank--><rect fill="#FFFFFF" height="297" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="196" x="7" y="347.0781"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="124" x="43" y="375.6875">C4Bank Domain</text><text fill="#444444" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="63" x="73.5" y="391.6602">[Enterprise]</text><!--MD5=[ae78ca0dd1f49bdd788e5556d70823ac]
+entity Customer--><ellipse cx="303" cy="203.6719" fill="#000000" rx="16" ry="16" style="stroke:#00000000;stroke-width:1.5;"/><path d="M303,223.6719 C307,223.6719 310,223.6719 314,219.6719 C322,219.6719 330,227.6719 330,235.6719 L330,239.6719 C330,243.6719 326,247.6719 322,247.6719 L284,247.6719 C280,247.6719 276,243.6719 276,239.6719 L276,235.6719 C276,227.6719 284,219.6719 292,219.6719 C296,223.6719 299,223.6719 303,223.6719 " fill="#000000" style="stroke:#00000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="75" x="265.5" y="265.7813">Customer</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="305" y="283.8301"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="256.5" y="301.4395">Bank Customer</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="52" x="277" y="183.5352">«person»</text><!--MD5=[743a05626c264b55d95e3e0f02c35cfe]
+entity OTBank.Finance--><rect fill="#ABB2B9" height="90.4375" rx="12.5" ry="12.5" style="stroke:#000000;stroke-width:1.5;" width="181" x="212.5" y="403.0781"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="104" x="251" y="425.5352">«external_system»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="61" x="272.5" y="444.7813">Finance</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="305" y="462.8301"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="157" x="226.5" y="480.4395">OTBank Finance System</text><!--MD5=[fdfe85205f1c0622a4e21f0aee69b0b8]
+entity eMailer.System--><rect fill="#ABB2B9" height="90.4375" rx="12.5" ry="12.5" style="stroke:#000000;stroke-width:1.5;" width="164" x="283" y="28.0781"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="104" x="313" y="50.5352">«external_system»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="59" x="335.5" y="69.7813">Deposit</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="367" y="87.8301"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="297" y="105.4395">Mailer Deposit System</text><!--MD5=[eaa18602c19f0dc8863d33a0d4d48e3f]
+entity C4Bank.Account--><rect fill="#F4F4F4" height="90.4375" rx="12.5" ry="12.5" style="stroke:#000000;stroke-width:1.5;" width="179" x="15.5" y="403.0781"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="53" x="78.5" y="425.5352">«system»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="64" x="73" y="444.7813">Account</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="107" y="462.8301"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="155" x="29.5" y="480.4395">C4Bank Account System</text><!--MD5=[1491ea6fb5ffa9641f89252c5e81f2b5]
+entity C4Bank.Deposit--><rect fill="#F4F4F4" height="90.4375" rx="12.5" ry="12.5" style="stroke:#000000;stroke-width:1.5;" width="176" x="19" y="546.0781"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="53" x="80.5" y="568.5352">«system»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="59" x="77.5" y="587.7813">Deposit</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="109" y="605.8301"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="152" x="33" y="623.4395">C4Bank Deposit System</text><path d="M303,304.2626 C303,336.3721 303,374.1637 303,402.8033 " fill="none" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="none" points="303,402.8033,306,394.8033,300,394.8033,303,402.8033" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="92" x="304" y="335.5352">Request deposit</text><path d="M254.6166,493.3355 C240.9035,505.1215 225.6981,517.5059 211,528.0781 C202.553,534.154 193.4843,540.1982 184.35,545.9959 " fill="none" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="none" points="184.35,545.9959,192.712,544.2416,189.4967,539.1759,184.35,545.9959" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="74" x="234" y="524.5352">Send deposit</text><path d="M252.4235,266.4168 C228.9122,280.9646 201.6541,300.2793 181,322.0781 C158.4659,345.8611 139.3439,377.4155 125.9172,402.8702 " fill="none" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="none" points="125.9172,402.8702,132.3031,397.1939,126.9961,394.3946,125.9172,402.8702" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="116" x="182" y="335.5352">Request registration</text><path d="M105.6273,493.3045 C105.8656,510.1033 106.1368,529.2244 106.3749,546.0086 " fill="none" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="none" points="106.3749,546.0086,109.2611,537.9669,103.2617,538.052,106.3749,546.0086" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="98" x="108" y="524.5352">Send registration</text><path d="M195.1564,588.0503 C264.6006,581.1763 357.096,559.1352 403,493.0781 C489.2418,368.9739 406.8889,304.2015 408,153.0781 C408.0556,145.5228 410.2558,143.2891 408,136.0781 C406.0836,129.9522 403.3255,123.9 400.118,118.1175 " fill="none" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="none" points="400.118,118.1175,401.3751,126.5686,406.622,123.6582,400.118,118.1175" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="32" x="439" y="335.5352">Notify</text><path d="M325.5856,118.3373 C321.8774,124.0365 318.5568,130.0093 316,136.0781 C311.4236,146.941 308.3522,159.0017 306.3115,170.8893 " fill="none" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="none" points="306.3115,170.8893,310.6217,163.5122,304.7082,162.497,306.3115,170.8893" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="90" x="317" y="149.5352">Notify customer</text><!--MD5=[be2506a3a1af927014cea16b1c71ae15]
+@startuml c4bank-contexts-of-deposit-area-c4context
+!pragma layout smetana
+!include ..\.c4s\C4_Context.puml
+
+UpdateElementStyle("person", $bgColor=#000000, $fontColor=#000000, $borderColor=#00000000, $shadowing="False")
+UpdateElementStyle("system", $bgColor=#f4f4f4, $fontColor=#000000, $borderColor=#000000, $shadowing="False", $shape=RoundedBoxShape())
+UpdateElementStyle("external_system", $bgColor=#ABB2B9, $fontColor=#000000, $borderColor=#000000, $shadowing="False", $shape=RoundedBoxShape())
+
+SHOW_PERSON_PORTRAIT()
+LAYOUT_TOP_DOWN()
+
+title C4Bank Contexts of Deposit Area
+
+Person(Customer, "Customer", "Bank Customer")
+System_Ext(OTBank.Finance, "Finance", "OTBank Finance System")
+
+Enterprise_Boundary(C4Bank, "C4Bank Domain") {
+    System(C4Bank.Account, "Account", "C4Bank Account System")
+    System(C4Bank.Deposit, "Deposit", "C4Bank Deposit System")
+}
+
+System_Ext(eMailer.System, "Deposit", "Mailer Deposit System")
+
+Rel(Customer, OTBank.Finance, "Request deposit")
+Rel(OTBank.Finance, C4Bank.Deposit, "Send deposit")
+Rel(Customer, C4Bank.Account, "Request registration")
+Rel(C4Bank.Account, C4Bank.Deposit, "Send registration")
+Rel_Neighbor(C4Bank.Deposit, eMailer.System, "Notify")
+Rel(eMailer.System, Customer, "Notify customer")
+@enduml
+
+@startuml c4bank-contexts-of-deposit-area-c4context
+!pragma layout smetana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam shadowing<<legendArea>> false
+skinparam rectangle<<legendArea>> {
+    backgroundcolor #00000000
+    bordercolor #00000000
+}
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam actor {
+    StereotypeFontSize 12
+    shadowing false
+    style awesome
+}
+
+skinparam person {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam package {
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontStyle plain
+    BackgroundColor transparent
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontColor #444444
+    BorderColor #444444
+    BackgroundColor transparent
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam database<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam queue<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam actor<<person>> {
+    StereotypeFontColor #08427B
+    FontColor #08427B
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam person<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam database<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_person>> {
+    StereotypeFontColor #686868
+    FontColor #686868
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam person<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam queue<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam actor<<system>> {
+    StereotypeFontColor #1168BD
+    FontColor #1168BD
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam person<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_system>> {
+    StereotypeFontColor #999999
+    FontColor #999999
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam person<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+sprite $person2 [48x48/16] {
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000002578888300000000005888864100000000000
+0000000007DFFFFFFFFD9643347BFFFFFFFFFB4000000000
+00000004EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB10000000
+0000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD2000000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+00003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+0000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF50000
+0003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD0000
+0009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+0009FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF2000
+0003FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFD0000
+0000BFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFF50000
+00003FFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFB00000
+000006FFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFE100000
+0000007FFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFD2000000
+00000004EFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFB10000000
+0000000007DF8FFFFFFFFFFFFFFFFFFFFFF8FB4000000000
+000000000002578888888888888888888864100000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #000000
+    BorderColor #00000000
+}
+skinparam database<<person>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #000000
+    BorderColor #00000000
+}
+skinparam queue<<person>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #000000
+    BorderColor #00000000
+}
+skinparam actor<<person>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #000000
+    BorderColor #00000000
+}
+skinparam person<<person>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #000000
+    BorderColor #00000000
+}
+
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #f4f4f4
+    BorderColor #000000
+    RoundCorner 25
+    DiagonalCorner 0
+}
+skinparam database<<system>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #f4f4f4
+    BorderColor #000000
+}
+skinparam queue<<system>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #f4f4f4
+    BorderColor #000000
+}
+skinparam actor<<system>> {
+    StereotypeFontColor #f4f4f4
+    FontColor #f4f4f4
+    BackgroundColor #f4f4f4
+    BorderColor #000000
+}
+skinparam person<<system>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #f4f4f4
+    BorderColor #000000
+}
+
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #ABB2B9
+    BorderColor #000000
+    RoundCorner 25
+    DiagonalCorner 0
+}
+skinparam database<<external_system>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #ABB2B9
+    BorderColor #000000
+}
+skinparam queue<<external_system>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #ABB2B9
+    BorderColor #000000
+}
+skinparam actor<<external_system>> {
+    StereotypeFontColor #ABB2B9
+    FontColor #ABB2B9
+    BackgroundColor #ABB2B9
+    BorderColor #000000
+}
+skinparam person<<external_system>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #ABB2B9
+    BorderColor #000000
+}
+
+
+
+top to bottom direction
+
+title C4Bank Contexts of Deposit Area
+
+actor "==Customer\n\n Bank Customer" <<person>> as Customer 
+rectangle "==Finance\n\n OTBank Finance System" <<external_system>> as OTBank.Finance 
+
+rectangle "==C4Bank Domain\n<size:12>[Enterprise]</size>" <<boundary>> as C4Bank  {
+    rectangle "==Account\n\n C4Bank Account System" <<system>> as C4Bank.Account 
+    rectangle "==Deposit\n\n C4Bank Deposit System" <<system>> as C4Bank.Deposit 
+}
+
+rectangle "==Deposit\n\n Mailer Deposit System" <<external_system>> as eMailer.System 
+
+Customer - ->> OTBank.Finance : **Request deposit**
+OTBank.Finance - ->> C4Bank.Deposit : **Send deposit**
+Customer - ->> C4Bank.Account : **Request registration**
+C4Bank.Account - ->> C4Bank.Deposit : **Send registration**
+C4Bank.Deposit ->> eMailer.System : **Notify**
+eMailer.System - ->> Customer : **Notify customer**
+@enduml
+
+PlantUML version 1.2021.14(Fri Nov 12 13:46:50 BRT 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: BR
+--></g></svg>

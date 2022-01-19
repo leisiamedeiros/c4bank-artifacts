@@ -1,0 +1,37 @@
+@startuml c4bank-context-of-deposit-area-c4container
+!include ..\.c4s\C4_Container.puml
+
+UpdateElementStyle("person", $bgColor=#000000, $fontColor=#000000, $borderColor=#00000000, $shadowing="False")
+UpdateElementStyle("container", $bgColor=#ffffff, $fontColor=#000000, $borderColor=#000000, $shadowing="False", $shape=RoundedBoxShape())
+UpdateElementStyle("system", $bgColor=#f4f4f4, $fontColor=#000000, $borderColor=#000000, $shadowing="False", $shape=RoundedBoxShape())
+UpdateElementStyle("external_system", $bgColor=#ABB2B9, $fontColor=#000000, $borderColor=#000000, $shadowing="False", $shape=RoundedBoxShape())
+
+SHOW_PERSON_PORTRAIT()
+LAYOUT_TOP_DOWN()
+
+title C4Bank Context of Deposit Area
+
+Person(Customer, "Customer", "Bank Customer")
+System_Ext(OTBank.Finance, "Finance", "OTBank Finance System")
+System(C4Bank.Account, "Account", "C4Bank Account System")
+Container(C4Bank.Deposit.UseCases.DepositoProcessing.UseCase.Messages.Events.DepositReceived, "Deposit Received", "Api:Aspnet/C#", "ACL")
+ContainerQueue(C4Bank.Deposit.UseCases.SynchronizeNewAccount.UseCase.Messages.Events.RegisteredAccount, "Registered Account", "Topic:kafka", "Partition 01")
+
+System_Boundary(4f32e1dfb32a4aa5b38c847efa024760, "Deposit") {
+    Container(C4Bank.Deposit.UseCases.DepositoProcessing.Adapters.DepositoProcessingWorker, "Deposito Processing Worker", "Api:C#", "Deposito Processing Worker")
+    ContainerDb(C4Bank.Deposit.UseCases.DepositoProcessing.Interfaces.IDepositRepository, " Deposit Repository", "Database:SQL Server", "Deposit Data Base")
+    Container(C4Bank.Deposit.UseCases.SynchronizeNewAccount.Adapters.SynchronizeNewAccountConsumer, "Synchronize New Account Consumer", "Server Console:C#", "Kafka Consumer")
+    ContainerDb(C4Bank.Deposit.UseCases.SynchronizeNewAccount.Interfaces.IAccountRepository, " Account Repository", "Database:SQL Server", "Account Data Base")
+}
+
+
+Rel(Customer, OTBank.Finance, "send deposit")
+Rel(OTBank.Finance, C4Bank.Deposit.UseCases.DepositoProcessing.UseCase.Messages.Events.DepositReceived, "POST", "HTTP")
+Rel_Back(C4Bank.Deposit.UseCases.DepositoProcessing.Adapters.DepositoProcessingWorker, C4Bank.Deposit.UseCases.DepositoProcessing.UseCase.Messages.Events.DepositReceived, "POST", "HTTP")
+Rel(C4Bank.Deposit.UseCases.DepositoProcessing.Adapters.DepositoProcessingWorker, C4Bank.Deposit.UseCases.DepositoProcessing.Interfaces.IDepositRepository, "uses")
+Rel(Customer, C4Bank.Account, "register")
+Rel(C4Bank.Account, C4Bank.Deposit.UseCases.SynchronizeNewAccount.UseCase.Messages.Events.RegisteredAccount, "produces")
+Rel(C4Bank.Deposit.UseCases.SynchronizeNewAccount.Adapters.SynchronizeNewAccountConsumer, C4Bank.Deposit.UseCases.SynchronizeNewAccount.UseCase.Messages.Events.RegisteredAccount, "consumes")
+Rel(C4Bank.Deposit.UseCases.SynchronizeNewAccount.Adapters.SynchronizeNewAccountConsumer, C4Bank.Deposit.UseCases.SynchronizeNewAccount.Interfaces.IAccountRepository, "uses")
+Rel(C4Bank.Deposit.UseCases.DepositoProcessing.Adapters.DepositoProcessingWorker, C4Bank.Deposit.UseCases.SynchronizeNewAccount.Interfaces.IAccountRepository, "uses")
+@enduml

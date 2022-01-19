@@ -1,0 +1,43 @@
+@startuml c4bank-componetns-of-deposit-area-c4component
+!include ..\.c4s\C4_Component.puml
+
+UpdateElementStyle("person", $bgColor=#000000, $fontColor=#000000, $borderColor=#00000000, $shadowing="False")
+UpdateElementStyle("component", $bgColor=#ffffff, $fontColor=#000000, $borderColor=#000000, $shadowing="False", $shape=RoundedBoxShape())
+UpdateElementStyle("container", $bgColor=#f4f4f4, $fontColor=#000000, $borderColor=#000000, $shadowing="False", $shape=RoundedBoxShape())
+
+SHOW_PERSON_PORTRAIT()
+LAYOUT_TOP_DOWN()
+
+title C4Bank Componetns of Deposit Area
+
+Person(Customer, "Customer", "")
+ContainerQueue(C4Bank.Deposit.Shared.IEvent.1, " Event", "Topic:kafka", "Partition")
+ContainerQueue(C4Bank.Deposit.Shared.IEvent.2, " Event", "Topic:kafka", "Partition")
+ContainerQueue(C4Bank.Deposit.Shared.IEvent.3, " Event", "Topic:kafka", "DLQ")
+
+Container_Boundary(C4Bank.Deposit.UseCases.DepositoProcessing.Adapters.DepositoProcessingWorker, "Deposito Processing Worker") {
+    Component(C4Bank.Deposit.Shared.IController, " Controller", "Aspnet", "")
+    Component(C4Bank.Deposit.Shared.IWorker, " Worker", "class/C#", "")
+    Component(C4Bank.Deposit.Shared.ICommand, " Command", "record/C#", "")
+    Component(C4Bank.Deposit.Shared.IValidation, " Validation", "decorator/C#", "")
+    Component(C4Bank.Deposit.Shared.IHandler, " Handler", "class/C#", "")
+    Component(C4Bank.Deposit.Shared.IProducer, " Producer", "class/C#", "")
+    Component(C4Bank.Deposit.Shared.IRepository, " Repository", "class/C#", "")
+}
+
+ContainerDb(Database, "Database", "Database:SQL Server", "Data Base")
+
+Rel(Customer, C4Bank.Deposit.Shared.IController, "request")
+Rel(C4Bank.Deposit.Shared.IController, C4Bank.Deposit.Shared.IEvent.1, "Produces")
+Rel(C4Bank.Deposit.Shared.IWorker, C4Bank.Deposit.Shared.IEvent.1, "Consumes")
+Rel(C4Bank.Deposit.Shared.IWorker, C4Bank.Deposit.Shared.ICommand, "Map to")
+Rel(C4Bank.Deposit.Shared.IWorker, C4Bank.Deposit.Shared.IValidation, "Call")
+Rel(C4Bank.Deposit.Shared.IValidation, C4Bank.Deposit.Shared.IHandler, "Call")
+Rel(C4Bank.Deposit.Shared.IValidation, C4Bank.Deposit.Shared.IProducer, "Produces")
+Rel(C4Bank.Deposit.Shared.IHandler, C4Bank.Deposit.Shared.ICommand, "Execute")
+BiRel(C4Bank.Deposit.Shared.IHandler, C4Bank.Deposit.Shared.IRepository, "Write/Read")
+Rel(C4Bank.Deposit.Shared.IHandler, C4Bank.Deposit.Shared.IProducer, "Produces")
+Rel(C4Bank.Deposit.Shared.IProducer, C4Bank.Deposit.Shared.IEvent.2, "Produces")
+Rel(C4Bank.Deposit.Shared.IProducer, C4Bank.Deposit.Shared.IEvent.3, "Produces")
+BiRel(C4Bank.Deposit.Shared.IRepository, Database, "Write/Read")
+@enduml
