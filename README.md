@@ -4,7 +4,7 @@
 ### Context Diagram
 > A System Context diagram is a good starting point for diagramming and documenting a software system, allowing you to step back and see the big picture. Draw a diagram showing your system as a box in the centre, surrounded by its users and the other systems that it interacts with.
 
-![img](./assets/c4bank-contexts-of-deposit-area-c4context.png)
+![img](/assets/c4/c4bank-contexts-of-deposit-area-c4context.png)
   
 picture 1. Context Diagram  
 see the code [here](../C4Bank/C4Bank.Deposit/Architecure/ContextDiagram.cs)
@@ -18,7 +18,7 @@ see the code [here](../C4Bank/C4Bank.Deposit/Architecure/ContextDiagram.cs)
 ### Container Diagram
 >Once you understand how your system fits in to the overall IT environment, a really useful next step is to zoom-in to the system boundary with a Container diagram. A "container" is something like a server-side web application, single-page application, desktop application, mobile app, database schema, file system, etc. Essentially, a container is a separately runnable/deployable unit (e.g. a separate process space) that executes code or stores data.
 
-![img](./assets/c4bank-context-of-deposit-area-c4container.png)
+![img](/assets/c4/c4bank-context-of-deposit-area-c4container.png)
   
 picture 2. Container Diagram  
 see the code [here]('../C4Bank/C4Bank.Deposit/Architecure/ContainerDiagram.cs')
@@ -34,7 +34,7 @@ Notes: This diagram says nothing about deployment scenarios, clustering, replica
 ### Component Diagram
 >The Component diagram shows how a container is made up of a number of "components", what each of those components are, their responsibilities and the technology/implementation details.
 
-![img](./assets/c4bank-componetns-of-deposit-area-c4component.png)
+![img](/assets/c4/c4bank-componetns-of-deposit-area-c4component.png)
 
 picture 3. Component Diagram  
 see the code [here](../C4Bank/C4Bank.Deposit/Architecure/ComponentDiagram.cs)
