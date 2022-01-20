@@ -21,7 +21,6 @@ jobs:
       run: dotnet restore
     - name: Build
       run: dotnet build --no-restore
-    - run: ls C4Bank.Deposit/bin
     - uses: actions/cache@v2
       id: restore-build
       with:
@@ -32,16 +31,15 @@ jobs:
     runs-on: ubuntu-latest
     needs: [build]    
     steps:
-    # - uses: actions/checkout@v2
-    - uses: actions/setup-dotnet@v1
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 6.0.x        
-    - run: ls
-    - uses: actions/cache@v2
+    - name: Restore cache
+      uses: actions/cache@v2
       id: restore-build
       with:
         path: ./*
         key: ${{ github.sha }}
-    - run: ls C4Bank.Deposit/
     - name: Test
-      run: dotnet test --no-build
+      run: dotnet test --no-build -v n
