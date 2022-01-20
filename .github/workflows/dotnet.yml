@@ -21,6 +21,9 @@ jobs:
       run: dotnet restore
     - name: Build
       run: dotnet build --no-restore
+    - name: list
+      run: ls
+      
       
   test:
     runs-on: ubuntu-latest
