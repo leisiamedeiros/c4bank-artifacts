@@ -45,6 +45,6 @@ jobs:
         path: ./*
         key: ${{ github.sha }}
     - run: ls
-    - run: ls .next
+    - run: ls C4Bank.Deposit/
     - name: Test
       run: dotnet test --no-build
