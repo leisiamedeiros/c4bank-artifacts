@@ -1,6 +1,6 @@
 # Workflow status
 
-[![.NET](https://github.com/leisiamedeiros/c4bank-files/actions/workflows/dotnet.yml/badge.svg)](https://github.com/leisiamedeiros/c4bank-files/actions/workflows/dotnet.yml)
+[![c4bank-application](https://github.com/leisiamedeiros/c4bank-artifacts/actions/workflows/dotnet.yml/badge.svg?branch=main)](https://github.com/leisiamedeiros/c4bank-artifacts/actions/workflows/dotnet.yml)
 
 # C4Bank Sample
 
