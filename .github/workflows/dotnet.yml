@@ -23,13 +23,16 @@ jobs:
       run: dotnet build --no-restore
     - name: list
       run: ls
-      
-      
+            
   test:
     runs-on: ubuntu-latest
-    needs: build    
+    needs: [build]    
     steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 6.0.x
     - name: LS
-      run: ls -l
+      run: ls
     - name: Test
       run: dotnet test --no-build --verbosity normal
