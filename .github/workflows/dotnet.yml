@@ -62,7 +62,6 @@ jobs:
         key: ${{ github.sha }}
     - name: Generate c4s artifacts
       run: c4scli build -o assets
-    - run: ls
     - name: Publish artifacts
       uses: actions/upload-artifact@v2
       with:
