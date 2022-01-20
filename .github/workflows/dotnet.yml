@@ -43,3 +43,30 @@ jobs:
         key: ${{ github.sha }}
     - name: Test
       run: dotnet test --no-build -v n
+  
+  c4sharp:
+    runs-on: ubuntu-latest
+    needs: [build]    
+    steps:
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 6.0.x    
+    - name: Instal c4scli
+      run: dotnet tool install c4scli --version 1.1.152-beta
+    - name: Restore cache
+      uses: actions/cache@v2
+      id: restore-build
+      with:
+        path: ./*
+        key: ${{ github.sha }}
+    - name: Create assets folder
+      run: mkdir assets
+    - name: Generate c4s artifacts
+      run: c4scli build -o assets
+    - run: ls
+    - name: Publish artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: 'c4s-assets-${{ github.run_id }}'
+        path: assets
