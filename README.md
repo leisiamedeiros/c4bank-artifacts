@@ -8,4 +8,4 @@
 
 ### This repo was created just to show how to:
 
-- Create a [github action](https://github.com/leisiamedeiros/c4bank-artifacts/actions/workflows/dotnet.yml) to publish **c4sharp** assets as **artifacts** on [workflows](https://github.com/leisiamedeiros/c4bank-artifacts/actions/runs/1721144053) using `c4scli`.
+- Create a [github action](https://github.com/leisiamedeiros/c4bank-artifacts/actions/workflows/dotnet.yml) to publish **c4sharp** assets as **artifacts** on [workflows](https://github.com/leisiamedeiros/c4bank-artifacts/actions/runs/2474002700#artifacts) using `c4scli`.
