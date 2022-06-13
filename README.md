@@ -14,6 +14,8 @@
 
 There are three jobs on the [workflow yml file](https://github.com/leisiamedeiros/c4bank-artifacts/blob/main/.github/workflows/dotnet.yml) and their responsibilities are showed bellow:
 
+![c4bank-workflow](assets/c4bank-workflow.png)
+
 - Build
   - To build the application and save its compilated code on cache
 - Test
